@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+<com.blahti.example.drag2.DragLayer
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    android:id="@+id/drag_layer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="0.9"
+    android:layout_gravity="center_vertical" >
+
+        <com.k2mediawebdesign.BodyChartView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/g9069"
+            android:background="#fff" />
+</com.blahti.example.drag2.DragLayer>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_burning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_burning" />
+            
+            <Button
+                android:id="@+id/btn_dull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_dull" />
+
+            <Button
+                android:id="@+id/btn_numb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_numb" />
+
+            <Button
+                android:id="@+id/btn_sharp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_sharp" />
+
+            <Button
+                android:id="@+id/btn_shooting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_shooting" />
+
+            <Button
+                android:id="@+id/btn_stabbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_stabbing" />
+
+            <Button
+                android:id="@+id/btn_tender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_tender" />
+
+            <Button
+                android:id="@+id/btn_throbbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_throbbing" />
+
+            <Button
+                android:id="@+id/btn_tingling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_pain_type"
+                android:text="@string/pain_tingling" />
+            
+        </LinearLayout>
+
+    </LinearLayout>

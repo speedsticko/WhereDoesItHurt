@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="help_title">Help!</string>
+ <string name="help_message">\n
+  Click button to select sticker.\n\n
+  Press and hold to move stickers.\n\n
+  Click to change pain intensity.
+ </string>
+ <string name="help_ok">OK</string>
+</resources>

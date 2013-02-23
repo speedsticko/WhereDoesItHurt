@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WhereDoesItHurtActivity!</string>
+    <string name="app_name">Where Does It Hurt?</string>
+    <string name="no_notes">No Health Notes Yet</string>
+    <string name="menu_insert">Add Health Note</string>
+    <string name="menu_clear">Clear Chart</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Save Notes</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="burining_pain">Burning</string>
+    <string name="pain_dull">Dull</string>
+    <string name="pain_burning">Burning</string>
+    <string name="pain_numb">Numb</string>
+    <string name="pain_sharp">Sharp</string>
+    <string name="pain_shooting">Shooting</string>
+    <string name="pain_stabbing">Stabbing</string>
+    <string name="pain_tender">Tender</string>
+    <string name="pain_throbbing">Throbbing</string>
+    <string name="pain_tingling">Tingling</string>
+
+</resources>
